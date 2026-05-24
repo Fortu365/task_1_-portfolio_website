@@ -4,19 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
     <title>Hlodis Portfolio Website</title>
 </head>
 <body>
 
     <div>
         <!-- Logo-->
-        <img src="./images/girls_can_code.jpeg" alt="logo" length="60" width="60">
+        <div class="div-header">
+            <img src="./images/girls_can_code.jpeg" alt="logo" length="60" width="60" id="logo">
+        
 
-        <section>
-            <a href="#">Home</a>
-            <a href="#about_me">About me</a>
-            <a href="#contact_us">Contact Us</a>
-        </section>
+            <section>
+                <div class="menu-icon"> ☰ </div>
+                <nav class="nav-header">
+                    <a href="#">Home</a>
+                    <a href="#about_me">About me</a>
+                    <a href="#contact_us">Contact Us</a>
+                </nav>
+            </section>
+        </div>
 
         <!-- Video -->
         <video controls>
@@ -34,7 +41,7 @@
                 individual with strong problem-solving, communication, and teamwork skills. Eager to <br> 
                 contribute positively and grow professionally in any work environment.
             </p>
-            <img src="./images/myself.jpeg" alt="Myself" lenght="400" width="400">
+            <img src="./images/myself.jpeg" alt="Myself" lenght="400" width="400" id="mySelf">
         </section>
 
         <hr>
@@ -45,7 +52,7 @@
             <img src="./images/phone_number.png" alt="phone number" length="35" width="35"> <strong>Phone Number:</strong> +27 65 925 8037 | +27 79 799 9278<br>
             <img src="./images/email.avif" alt="email" length="30" width="30"> <strong>Email: </strong>fortubelogift@gmail.com
             <p></p>
-            <nav>
+            <nav id="footer-nav">
                 <a href="https://www.linkedin.com/in/mahlodi-fortunate-malatji-7753b7345/">
                     <i class="fa fa-linkedin"></i> LinkedIn</a> <br>
                 <a href="https://github.com/Fortu365"> 
@@ -53,6 +60,16 @@
                 <a href="https://web.facebook.com/profile.php?id=61580348325733">
                     <i class="fa fa-facebook"></i> Facebook</a>
             </nav>
+            
+            <iframe
+                width="600"
+                height="450"
+                style="border:0;"
+                loading="lazy"
+                allowfullscreen
+                src="https://maps.google.com/maps?q=-23.898361,29.665167&z=15&output=embed">
+            </iframe>
+
             <p>Copyright &copy; 2026 Hlodis Portfolio Website. All rights reserved.</p>
         </footer>
     </div>
